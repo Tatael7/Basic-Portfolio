@@ -76,19 +76,55 @@
 }
 
 .grid-container{
+    position: relative;
+    top: 20px;
+    left: 25px;
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
     background-color: whitesmoke;
 }
 
-#hangman{
-    
+#hangLink{
+    position: relative;
+    left: -200px;
+    top: -10px;
+    height: auto;
+    width: auto;
+    background-color: turquoise;
 }
 
-#hangLink{
-    position: absolute;
-    top: 90%;
+#rpgLink{
+    position: relative;
+    left: -200px;
+    top: -10px;
+    height: auto;
+    width: auto;
+    background-color: turquoise;
+}
+
+#triviaLink{
+    position: relative;
+    left: -200px;
+    top: -10px;
+    height: auto;
+    width: auto;
+    background-color: turquoise;
+}
+
+#rutgerLink{
+    position: relative;
+    left: -200px;
+    top: -10px;
+    height: auto;
+    width: auto;
+    background-color: turquoise;
+}
+
+#rockLink{
+    position: relative;
+    left: -200px;
+    top: -10px;
     height: auto;
     width: auto;
     background-color: turquoise;
